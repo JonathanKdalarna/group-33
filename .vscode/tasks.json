@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dotnet-build-project",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Labb4/Labb4.csproj"],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
